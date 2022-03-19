@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
 import './index.css';
+import Dashboard from './Dashboard';
+import PersonList from './components/PersonList';
 import App from './App';
+import AgregarContacto from './components/AgregarContacto';
+import EliminarContacto from './components/EliminarContacto';
 import reportWebVitals from './reportWebVitals';
+ReactDOM.render( 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App/>
+
+  ,
   document.getElementById('root')
 );
 
